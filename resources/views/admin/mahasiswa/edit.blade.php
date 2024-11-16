@@ -29,8 +29,9 @@
               </div>
               <div class="form-group mt-3">
                 <label for="">Tanggal Lahir</label>
-                <input type="date" name="nama" class="form-control" value="{{ $mahasiswa->tanggal_lahir }}">
+                <input type="date" name="tanggal_lahir" class="form-control" value="{{ $mahasiswa->tanggal_lahir }}">
               </div>
+
               <div class="row mt-3 align-items-center">
                 {{-- Mengubah Gambar Sebelum dan Sesudah --}}
                 <!-- Kolom untuk Gambar Sebelumnya -->
